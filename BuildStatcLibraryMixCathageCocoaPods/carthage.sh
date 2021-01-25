@@ -5,6 +5,26 @@ echo "用法：
 1.本脚本后面无参数，直接默认：
 carthage update --platform iOS --no-use-binaries --cache-builds
 2.有参数则等同于carthage命令"
+
+#First Init 
+FIRST_INIT="false"
+
+#DEFAULT RUN
+DEFAULT_RUN="true"
+
+if [ ! $# -eq 0 ]; then
+    DEFAULT_RUN="false"
+fi
+
+while [ ! $# -eq 0 ]; do
+    case "$1" in
+        -I | -Init)
+            FIRST_INIT="true";;
+        *)
+    esac
+    shift
+done
+
 # Make a unique temporary file with mktemp
 XCCONFIG=$(mktemp /tmp/static.xcconfig.XXXXXX)
 
@@ -36,9 +56,12 @@ done < $XCCONFIG
 
 export XCODE_XCCONFIG_FILE="$XCCONFIG"
 
-if [ $# == 0 ];then
+if [ $DEFAULT_RUN  == "true" ];then
+    echo "carthage update --platform iOS --no-use-binaries --cache-builds"
     carthage update --platform iOS --no-use-binaries --cache-builds
+elif [ $FIRST_INIT == "true" ]; then
+    echo "carthage build --platform iOS --no-use-binaries --cache-builds"
+    carthage build --platform iOS --no-use-binaries --cache-builds
 else
     carthage "$@"
 fi
-
