@@ -12,9 +12,13 @@
 		3CCA64C225BE6A5200F5DC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA64C025BE6A5200F5DC6C /* Main.storyboard */; };
 		3CCA64C425BE6A5400F5DC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA64C325BE6A5400F5DC6C /* Assets.xcassets */; };
 		3CCA64C725BE6A5400F5DC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA64C525BE6A5400F5DC6C /* LaunchScreen.storyboard */; };
+		3CCA64EB25BE855E00F5DC6C /* OCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCA64EA25BE855E00F5DC6C /* OCTest.m */; };
+		3CCA64F925BE860C00F5DC6C /* TestAnimations in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA64F825BE860C00F5DC6C /* TestAnimations */; };
+		8FBFED0BD346D725DA21CC1A /* libPods-BuildStatcLibraryMixCathageCocoaPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72DD70984DE1AADE7C541AAB /* libPods-BuildStatcLibraryMixCathageCocoaPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		383551BAE813BC01EE9EDB98 /* Pods-BuildStatcLibraryMixCathageCocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildStatcLibraryMixCathageCocoaPods.release.xcconfig"; path = "Target Support Files/Pods-BuildStatcLibraryMixCathageCocoaPods/Pods-BuildStatcLibraryMixCathageCocoaPods.release.xcconfig"; sourceTree = "<group>"; };
 		3CCA64B725BE6A5200F5DC6C /* BuildStatcLibraryMixCathageCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildStatcLibraryMixCathageCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCA64BA25BE6A5200F5DC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CCA64BE25BE6A5200F5DC6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,14 @@
 		3CCA64C325BE6A5400F5DC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CCA64C625BE6A5400F5DC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CCA64C825BE6A5400F5DC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCA64D725BE76AD00F5DC6C /* carthage.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = carthage.sh; sourceTree = SOURCE_ROOT; };
+		3CCA64DA25BE76BE00F5DC6C /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		3CCA64E825BE855D00F5DC6C /* BuildStatcLibraryMixCathageCocoaPods-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuildStatcLibraryMixCathageCocoaPods-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CCA64E925BE855E00F5DC6C /* OCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTest.h; sourceTree = "<group>"; };
+		3CCA64EA25BE855E00F5DC6C /* OCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTest.m; sourceTree = "<group>"; };
+		3CCA64F825BE860C00F5DC6C /* TestAnimations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestAnimations; sourceTree = "<group>"; };
+		72DD70984DE1AADE7C541AAB /* libPods-BuildStatcLibraryMixCathageCocoaPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuildStatcLibraryMixCathageCocoaPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC96F91D0D76682961F92969 /* Pods-BuildStatcLibraryMixCathageCocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildStatcLibraryMixCathageCocoaPods.debug.xcconfig"; path = "Target Support Files/Pods-BuildStatcLibraryMixCathageCocoaPods/Pods-BuildStatcLibraryMixCathageCocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBFED0BD346D725DA21CC1A /* libPods-BuildStatcLibraryMixCathageCocoaPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A94666AD15845592FF3CD86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC96F91D0D76682961F92969 /* Pods-BuildStatcLibraryMixCathageCocoaPods.debug.xcconfig */,
+				383551BAE813BC01EE9EDB98 /* Pods-BuildStatcLibraryMixCathageCocoaPods.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3CCA64AE25BE6A5100F5DC6C = {
 			isa = PBXGroup;
 			children = (
 				3CCA64B925BE6A5200F5DC6C /* BuildStatcLibraryMixCathageCocoaPods */,
 				3CCA64B825BE6A5200F5DC6C /* Products */,
+				0A94666AD15845592FF3CD86 /* Pods */,
+				CE39DA10B2034D26AE11E1A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,36 @@
 		3CCA64B925BE6A5200F5DC6C /* BuildStatcLibraryMixCathageCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
+				3CCA64F825BE860C00F5DC6C /* TestAnimations */,
+				3CCA64D625BE769600F5DC6C /* CarthageUsage */,
 				3CCA64BA25BE6A5200F5DC6C /* AppDelegate.swift */,
 				3CCA64BE25BE6A5200F5DC6C /* ViewController.swift */,
 				3CCA64C025BE6A5200F5DC6C /* Main.storyboard */,
 				3CCA64C325BE6A5400F5DC6C /* Assets.xcassets */,
 				3CCA64C525BE6A5400F5DC6C /* LaunchScreen.storyboard */,
 				3CCA64C825BE6A5400F5DC6C /* Info.plist */,
+				3CCA64E925BE855E00F5DC6C /* OCTest.h */,
+				3CCA64EA25BE855E00F5DC6C /* OCTest.m */,
+				3CCA64E825BE855D00F5DC6C /* BuildStatcLibraryMixCathageCocoaPods-Bridging-Header.h */,
 			);
 			path = BuildStatcLibraryMixCathageCocoaPods;
+			sourceTree = "<group>";
+		};
+		3CCA64D625BE769600F5DC6C /* CarthageUsage */ = {
+			isa = PBXGroup;
+			children = (
+				3CCA64DA25BE76BE00F5DC6C /* Cartfile */,
+				3CCA64D725BE76AD00F5DC6C /* carthage.sh */,
+			);
+			name = CarthageUsage;
+			sourceTree = "<group>";
+		};
+		CE39DA10B2034D26AE11E1A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72DD70984DE1AADE7C541AAB /* libPods-BuildStatcLibraryMixCathageCocoaPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CCA64CB25BE6A5400F5DC6C /* Build configuration list for PBXNativeTarget "BuildStatcLibraryMixCathageCocoaPods" */;
 			buildPhases = (
+				E7D35B6CACBF6A263E0DEC1E /* [CP] Check Pods Manifest.lock */,
 				3CCA64B325BE6A5200F5DC6C /* Sources */,
 				3CCA64B425BE6A5200F5DC6C /* Frameworks */,
 				3CCA64B525BE6A5200F5DC6C /* Resources */,
@@ -95,6 +142,7 @@
 				TargetAttributes = {
 					3CCA64B625BE6A5200F5DC6C = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -122,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CCA64C725BE6A5400F5DC6C /* LaunchScreen.storyboard in Resources */,
+				3CCA64F925BE860C00F5DC6C /* TestAnimations in Resources */,
 				3CCA64C425BE6A5400F5DC6C /* Assets.xcassets in Resources */,
 				3CCA64C225BE6A5200F5DC6C /* Main.storyboard in Resources */,
 			);
@@ -129,12 +178,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E7D35B6CACBF6A263E0DEC1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuildStatcLibraryMixCathageCocoaPods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CCA64B325BE6A5200F5DC6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3CCA64BF25BE6A5200F5DC6C /* ViewController.swift in Sources */,
+				3CCA64EB25BE855E00F5DC6C /* OCTest.m in Sources */,
 				3CCA64BB25BE6A5200F5DC6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,9 +354,11 @@
 		};
 		3CCA64CC25BE6A5400F5DC6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC96F91D0D76682961F92969 /* Pods-BuildStatcLibraryMixCathageCocoaPods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3D38623MVT;
 				INFOPLIST_FILE = BuildStatcLibraryMixCathageCocoaPods/Info.plist;
@@ -292,6 +369,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mwg.BuildStatcLibraryMixCathageCocoaPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BuildStatcLibraryMixCathageCocoaPods/BuildStatcLibraryMixCathageCocoaPods-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,9 +378,11 @@
 		};
 		3CCA64CD25BE6A5400F5DC6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383551BAE813BC01EE9EDB98 /* Pods-BuildStatcLibraryMixCathageCocoaPods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3D38623MVT;
 				INFOPLIST_FILE = BuildStatcLibraryMixCathageCocoaPods/Info.plist;
@@ -312,6 +393,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mwg.BuildStatcLibraryMixCathageCocoaPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BuildStatcLibraryMixCathageCocoaPods/BuildStatcLibraryMixCathageCocoaPods-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

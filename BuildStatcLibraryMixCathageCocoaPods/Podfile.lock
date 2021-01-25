@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (4.0.1)
+  - libwebp (1.1.0)
+  - lottie-ios (3.1.8)
+  - SDWebImage (5.10.0)
+  - SDWebImageWebPCoder (0.8.1)
+
+DEPENDENCIES:
+  - AFNetworking (from `./CarthagePods/AFNetworking`)
+  - libwebp (from `./CarthagePods/libwebp`)
+  - lottie-ios (from `./CarthagePods/lottie-ios`)
+  - SDWebImage (from `./CarthagePods/SDWebImage`)
+  - SDWebImageWebPCoder (from `./CarthagePods/SDWebImageWebPCoder`)
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :path: "./CarthagePods/AFNetworking"
+  libwebp:
+    :path: "./CarthagePods/libwebp"
+  lottie-ios:
+    :path: "./CarthagePods/lottie-ios"
+  SDWebImage:
+    :path: "./CarthagePods/SDWebImage"
+  SDWebImageWebPCoder:
+    :path: "./CarthagePods/SDWebImageWebPCoder"
+
+SPEC CHECKSUMS:
+  AFNetworking: 6f66ef905996fa01c18f103f5333bc1f4909726c
+  libwebp: baa94c2071b21454af968e6a354c62f52b7e084c
+  lottie-ios: 28ae1605003386e73a4bcd45d669dabf0f471407
+  SDWebImage: 276776811cf32b6596dee00cbe2dcabbd2c3c27d
+  SDWebImageWebPCoder: 6bbe193df638509dde248088135132daa51d5386
+
+PODFILE CHECKSUM: d2f897e380a956516687f60f6a45299a4d1f9f88
+
+COCOAPODS: 1.10.1

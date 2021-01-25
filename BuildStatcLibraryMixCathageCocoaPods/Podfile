@@ -8,8 +8,8 @@ target 'BuildStatcLibraryMixCathageCocoaPods' do
   if $isSourceCode ==  0
     pod 'AFNetworking', :path => $CarthagePodsPath + "AFNetworking"
     pod 'SDWebImage', :path => $CarthagePodsPath + "SDWebImage"
-    # pod 'libwebp', :path => "./CarthagePods/libwebp"
-    # pod 'SDWebImageWebPCoder', :path => "./CarthagePods/SDWebImageWebPCoder"
+    pod 'libwebp', :path => "./CarthagePods/libwebp"
+    pod 'SDWebImageWebPCoder', :path => "./CarthagePods/SDWebImageWebPCoder"
     pod 'lottie-ios', :path => $CarthagePodsPath + "lottie-ios"
   else 
    pod 'AFNetworking', '4.0.1'
