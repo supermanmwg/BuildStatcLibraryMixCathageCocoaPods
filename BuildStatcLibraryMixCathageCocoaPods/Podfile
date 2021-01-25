@@ -1,0 +1,40 @@
+version = '10.0'
+platform :ios, version
+
+$isSourceCode = 0
+$CarthagePodsPath = "./CarthagePods/"
+target 'BuildStatcLibraryMixCathageCocoaPods' do
+
+  if $isSourceCode ==  0
+    pod 'AFNetworking', :path => $CarthagePodsPath + "AFNetworking"
+    pod 'SDWebImage', :path => $CarthagePodsPath + "SDWebImage"
+    # pod 'libwebp', :path => "./CarthagePods/libwebp"
+    # pod 'SDWebImageWebPCoder', :path => "./CarthagePods/SDWebImageWebPCoder"
+    pod 'lottie-ios', :path => $CarthagePodsPath + "lottie-ios"
+  else 
+   pod 'AFNetworking', '4.0.1'
+   pod 'SDWebImage', '5.10.0'
+   pod 'SDWebImageWebPCoder', '0.8.1'
+   pod 'lottie-ios', '3.1.8'
+  end
+
+#pod 'SDWebImage'
+#pod 'SDWebImageWebPCoder'
+#pod 'lottie-ios', '3.1.8'
+
+
+#pod 'AFNetworking', :path => "./CarthagePods/AFNetworking"
+#pod 'SDWebImage', :path => "./CarthagePods/SDWebImage"
+#pod 'SDWebImageWebPCoder', :path => "./CarthagePods/SDWebImageWebPCoder"
+#pod 'lottie-ios', :path => "./CarthagePods/lottie-ios"
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < version.to_f
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = version
+      end
+    end
+  end
+end
