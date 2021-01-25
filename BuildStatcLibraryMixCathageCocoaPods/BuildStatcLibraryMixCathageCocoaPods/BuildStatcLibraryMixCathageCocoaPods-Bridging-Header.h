@@ -4,3 +4,4 @@
 #import <SDWebImage.h>
 #import "SDImageWebPCoder.h"
 #import <SDWebImageWebPCoderDefine.h>
+#import <AFNetworking.h>

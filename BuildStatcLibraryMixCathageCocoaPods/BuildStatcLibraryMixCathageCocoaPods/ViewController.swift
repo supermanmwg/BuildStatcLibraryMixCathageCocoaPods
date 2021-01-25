@@ -7,7 +7,7 @@
 
 import UIKit
 import Lottie
-import AFNetworking
+
 class ViewController: UIViewController {
     let animationView = AnimationView()
     let slider = UISlider()
