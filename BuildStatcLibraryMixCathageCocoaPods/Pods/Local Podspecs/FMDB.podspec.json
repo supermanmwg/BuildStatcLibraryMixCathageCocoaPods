@@ -16,6 +16,7 @@
     "ios": "9.0"
   },
   "vendored_frameworks": "FMDB.framework",
+  "static_framework": true,
   "xcconfig": {
     "HEADER_SEARCH_PATHS": "\"${SRCROOT}/CarthagePods/FMDB/FMDB.framework/Headers\""
   }

@@ -16,4 +16,5 @@ For the first time, designers can create and ship beautiful animations without a
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"${SRCROOT}/CarthagePods/lottie-ios/Lottie.framework/Headers"' }
   s.ios.deployment_target = '9.0'
   s.vendored_frameworks = 'Lottie.framework'
+  s.static_framework = true
   end

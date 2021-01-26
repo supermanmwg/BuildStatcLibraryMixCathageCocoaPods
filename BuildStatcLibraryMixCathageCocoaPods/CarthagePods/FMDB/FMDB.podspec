@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/AFNetworking/AFNetworking.git', :tag => s.version }
   s.ios.deployment_target = '9.0'
   s.vendored_frameworks = 'FMDB.framework'
+  s.static_framework = true
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"${SRCROOT}/CarthagePods/FMDB/FMDB.framework/Headers"' }
 end

@@ -14,5 +14,6 @@ This is a SDWebImage coder plugin to support WebP image.
 
     s.ios.deployment_target = '9.0'
     s.vendored_frameworks = 'SDWebImageWebPCoder.framework'
+    s.static_framework = true
     s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"${SRCROOT}/CarthagePods/SDWebImageWebPCoder/SDWebImageWebPCoder.framework/Headers"' }
   end

@@ -1,6 +1,8 @@
 PODS:
   - AFNetworking (4.0.1)
   - FMDB (4.0.1)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0)
   - libwebp (1.1.0)
   - lottie-ios (3.1.8)
   - MarqueeLabel (4.0.2)
@@ -10,6 +12,8 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (from `./CarthagePods/AFNetworking`)
   - FMDB (from `./CarthagePods/FMDB`)
+  - IGListDiffKit (from `./CarthagePods/IGListDiffKit`)
+  - IGListKit (from `./CarthagePods/IGListKit`)
   - libwebp (from `./CarthagePods/libwebp`)
   - lottie-ios (from `./CarthagePods/lottie-ios`)
   - MarqueeLabel (from `./CarthagePods/MarqueeLabel`)
@@ -21,6 +25,10 @@ EXTERNAL SOURCES:
     :path: "./CarthagePods/AFNetworking"
   FMDB:
     :path: "./CarthagePods/FMDB"
+  IGListDiffKit:
+    :path: "./CarthagePods/IGListDiffKit"
+  IGListKit:
+    :path: "./CarthagePods/IGListKit"
   libwebp:
     :path: "./CarthagePods/libwebp"
   lottie-ios:
@@ -33,14 +41,16 @@ EXTERNAL SOURCES:
     :path: "./CarthagePods/SDWebImageWebPCoder"
 
 SPEC CHECKSUMS:
-  AFNetworking: 6f66ef905996fa01c18f103f5333bc1f4909726c
-  FMDB: 4df388f724de7746fb4be8c25bf463e9d54298f2
-  libwebp: baa94c2071b21454af968e6a354c62f52b7e084c
-  lottie-ios: 28ae1605003386e73a4bcd45d669dabf0f471407
+  AFNetworking: 7a061119bba72d5ccc95e6a1f255a246060ebfb6
+  FMDB: b34b4dc78800b822c781d8dc73a41185358d6285
+  IGListDiffKit: 3f91d30ac1faa67ae3b6788aecf3f3e6aaeb3e31
+  IGListKit: 97456368d2a9309f48314d65baad11ecbed6cfe7
+  libwebp: 5cf34217e1ddf8f9206e0eefc428feec55b96e8c
+  lottie-ios: 653336527797b75304b8c2d6d6528d5a4187fca5
   MarqueeLabel: 69cedce35361f79060f8a9a806e05e1d4c9ef8bd
-  SDWebImage: 276776811cf32b6596dee00cbe2dcabbd2c3c27d
-  SDWebImageWebPCoder: 6bbe193df638509dde248088135132daa51d5386
+  SDWebImage: a463483257411df4a83b4b6e0248ba5d99562e81
+  SDWebImageWebPCoder: 9e19ae68b79a5b8bd709aa3555a593a1e7cc0da4
 
-PODFILE CHECKSUM: c003bcca7012ddef3768424b063db4df21f70130
+PODFILE CHECKSUM: d373954ada1a851ae562d5975cb250c5df9cbd98
 
 COCOAPODS: 1.10.1

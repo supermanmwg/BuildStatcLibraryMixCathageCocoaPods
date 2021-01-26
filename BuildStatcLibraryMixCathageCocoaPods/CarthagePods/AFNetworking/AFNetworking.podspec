@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/AFNetworking/AFNetworking.git', :tag => s.version }
   s.ios.deployment_target = '9.0'
   s.vendored_frameworks = 'AFNetworking.framework'
+  s.static_framework = true
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"${SRCROOT}/CarthagePods/AFNetworking/AFNetworking.framework/Headers"' }
 end

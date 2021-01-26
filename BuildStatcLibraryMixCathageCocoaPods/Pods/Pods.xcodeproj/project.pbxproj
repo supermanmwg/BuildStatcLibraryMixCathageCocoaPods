@@ -34,6 +34,15 @@
 			);
 			name = SDWebImageWebPCoder;
 		};
+		2D07A05F514BF9C5434DAC907988C708 /* IGListDiffKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80595F6650DA2765289574CD9A293EFC /* Build configuration list for PBXAggregateTarget "IGListDiffKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = IGListDiffKit;
+		};
 		3847153A6E5EEFB86565BA840768F429 /* SDWebImage */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 397DF70A6DC39ABBA5B77F73725EA98D /* Build configuration list for PBXAggregateTarget "SDWebImage" */;
@@ -51,6 +60,15 @@
 			dependencies = (
 			);
 			name = libwebp;
+		};
+		674FDCAB4D51E702521F4CD31807F659 /* IGListKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 874F7E181A5A74C260FD6354A0F1B098 /* Build configuration list for PBXAggregateTarget "IGListKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = IGListKit;
 		};
 		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
 			isa = PBXAggregateTarget;
@@ -73,101 +91,123 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		9FADAACE3DDD8707BD7ED6490A2AC3B1 /* Pods-BuildStatcLibraryMixCathageCocoaPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB667BBDB457FA14C94626B062E26BD7 /* Pods-BuildStatcLibraryMixCathageCocoaPods-dummy.m */; };
+		9FC8BC370334E0FF953E00C5BB0A1D04 /* Pods-BuildStatcLibraryMixCathageCocoaPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB667BBDB457FA14C94626B062E26BD7 /* Pods-BuildStatcLibraryMixCathageCocoaPods-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		13171FEC6212E14E8B83EAEDA8A0B985 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C23DB88E45B0ED14F0C8827BE9C46C95;
-			remoteInfo = MarqueeLabel;
-		};
-		5E11B6D9543BB6833F72C9D13F46B357 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B967D7F8561D42493EE289EC8D450D1;
-			remoteInfo = "lottie-ios";
-		};
-		6B979E0C6342321063BDCE32C95143E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1953860EA9853AA2BC8022B242F08512;
-			remoteInfo = SDWebImageWebPCoder;
-		};
-		8749300A69EE993E424ABE5ACA85EA07 /* PBXContainerItemProxy */ = {
+		023F280480A036E928EEE5E11A1159C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 47D2E85A78C25869BB13521D8561A638;
 			remoteInfo = libwebp;
 		};
-		98F89EE5C3095129C39F3C56465C2691 /* PBXContainerItemProxy */ = {
+		1FA21C356A943E92C6FCB410F2B171CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
-			remoteInfo = SDWebImage;
+			remoteGlobalIDString = C23DB88E45B0ED14F0C8827BE9C46C95;
+			remoteInfo = MarqueeLabel;
 		};
-		A692102C690DEBE1A28D8B9821A00D4D /* PBXContainerItemProxy */ = {
+		2B0555E20F17D13AFA799FA1783AA5E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
+			remoteGlobalIDString = 2D07A05F514BF9C5434DAC907988C708;
+			remoteInfo = IGListDiffKit;
 		};
-		DCD57264B633645461E05FDB837EDC44 /* PBXContainerItemProxy */ = {
+		2BB2320A0E6E7C224960674FDC15B4FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1953860EA9853AA2BC8022B242F08512;
+			remoteInfo = SDWebImageWebPCoder;
+		};
+		4237DF928BE6873F2F44430034B87842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B967D7F8561D42493EE289EC8D450D1;
+			remoteInfo = "lottie-ios";
+		};
+		7D60DC365BE9C019177758FB28B68768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674FDCAB4D51E702521F4CD31807F659;
+			remoteInfo = IGListKit;
+		};
+		816937F778B07C674ACEB35C8738AF77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
+		8C23976F27E9264FC3E8945242C78BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		9032600BEDDBA060BDCA012E4F7D5DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
+			remoteInfo = SDWebImage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02C2A02F834DD78863BCA0B12845D065 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = ../../Carthage/Build/iOS/Static/FMDB.framework; sourceTree = "<group>"; };
-		0B140F33DCA008452CFFA924A4DD6F57 /* MarqueeLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.release.xcconfig; sourceTree = "<group>"; };
-		0C23CBDD8C1DD6A96125E9C3C8527E33 /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
-		1E6450C5861FAA4CD79303B0C30616B5 /* SDWebImageWebPCoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageWebPCoder.framework; path = ../../Carthage/Build/iOS/Static/SDWebImageWebPCoder.framework; sourceTree = "<group>"; };
-		274038417E93C339A755694491B6A07E /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = ../../Carthage/Build/iOS/Static/SDWebImage.framework; sourceTree = "<group>"; };
-		3C303692A0D89D2CF7D942BB05F5DD4B /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		3CFFE832F48AA39BF1078F151081AAB6 /* lottie-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lottie-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		021D0EDE3D1B4D43303C953F430C8ABB /* IGListKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IGListKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		09904A1E8F5DDAAB92DB362A9211C7A5 /* SDWebImageWebPCoder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDWebImageWebPCoder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0A1DFCE546D65AE9BC7BD58DCE032A64 /* IGListKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGListKit.release.xcconfig; sourceTree = "<group>"; };
+		0FF8A1B8ACEE74C4802C7F480A093155 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		2973D08F1E66FD2DF0CA3EA4F433722B /* SDWebImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDWebImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		39E5DDCB38B86A2A5D37D1A54FAF77D6 /* AFNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AFNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		47AB4B2C94CA109E20E9609A4C3D1F77 /* MarqueeLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.debug.xcconfig; sourceTree = "<group>"; };
+		4A2C2EF92ED4CDF22FAD5495D4FC73AB /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
+		4AB329C3664C647840025B0763EFA8A2 /* IGListDiffKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGListDiffKit.debug.xcconfig; sourceTree = "<group>"; };
+		5066D432A9CBE12BED566497CBBCAC41 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = ../../Carthage/Build/iOS/Static/AFNetworking.framework; sourceTree = "<group>"; };
 		54FC7568A638517341AA5AEEF67FD463 /* Pods-BuildStatcLibraryMixCathageCocoaPods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuildStatcLibraryMixCathageCocoaPods-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5929026D3DFC25DFD44F4E749C67EEA6 /* libPods-BuildStatcLibraryMixCathageCocoaPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BuildStatcLibraryMixCathageCocoaPods.a"; path = "libPods-BuildStatcLibraryMixCathageCocoaPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		684D9B8D6226818A04E226D3A6C0F6C4 /* AFNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AFNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6920E3B08D8324CA2F8976EA2FFBC63F /* SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.debug.xcconfig; sourceTree = "<group>"; };
-		6C6F3FF54574549E98457CAFE6F340B3 /* libwebp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = libwebp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6EDA4BA5CE01ADDAAC4079F7DF6CB5E0 /* MarqueeLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.debug.xcconfig; sourceTree = "<group>"; };
+		61FC5B0A638A57501D11A418FF223EF1 /* SDWebImageWebPCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImageWebPCoder.debug.xcconfig; sourceTree = "<group>"; };
+		736FF97291887A46567132CC39D50D4F /* IGListDiffKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGListDiffKit.release.xcconfig; sourceTree = "<group>"; };
 		77C73C955E112AD31022C06079BE8128 /* Pods-BuildStatcLibraryMixCathageCocoaPods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuildStatcLibraryMixCathageCocoaPods-acknowledgements.plist"; sourceTree = "<group>"; };
-		80E4C101032A6DCC7206271A5AACE89C /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = ../../Carthage/Build/iOS/Static/AFNetworking.framework; sourceTree = "<group>"; };
-		836052615F19207C6C5E8FBD3D74D3E3 /* lottie-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lottie-ios.release.xcconfig"; sourceTree = "<group>"; };
-		83EF264378A1066F0ED56906C89A362B /* libwebp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libwebp.release.xcconfig; sourceTree = "<group>"; };
-		8B12F978A8E0DF5B48D9AC13A28FD6C6 /* lottie-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "lottie-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8B6234155FAF7210BF7A27F33990D808 /* SDWebImageWebPCoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImageWebPCoder.release.xcconfig; sourceTree = "<group>"; };
-		902C7ED4A1148613176642D9863AD342 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		928E9C11A5468A158D060E78438FB7DF /* SDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.release.xcconfig; sourceTree = "<group>"; };
-		9CFA40B1B058F9D0DB5DD74F92546703 /* SDWebImage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDWebImage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		81AEE803C561A2C810AAAF06CE57BDD2 /* SDWebImageWebPCoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageWebPCoder.framework; path = ../../Carthage/Build/iOS/Static/SDWebImageWebPCoder.framework; sourceTree = "<group>"; };
+		83D62D115B37A90AC1163D595A26ADD1 /* IGListDiffKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListDiffKit.framework; path = ../../Carthage/Build/iOS/Static/IGListDiffKit.framework; sourceTree = "<group>"; };
+		897CCE3B019E1DBA21713D50E5066EAF /* FMDB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FMDB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C8933161A72B5A0F4B940DFC17620CC /* MarqueeLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MarqueeLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8DBC70ED0501DC60266CA4C41F0D4300 /* IGListDiffKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IGListDiffKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B2E583BC67150E566C74A56DEC89D0 /* libwebp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libwebp.debug.xcconfig; sourceTree = "<group>"; };
+		95A87CD7FE8B96850A95019704932542 /* lottie-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "lottie-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A75E2A43D15C81FA2EFE44B62B1381BB /* MarqueeLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MarqueeLabel.framework; path = ../../Carthage/Build/iOS/Static/MarqueeLabel.framework; sourceTree = "<group>"; };
+		9F9E98BCD0A5E6D8181575BF3BA41C70 /* lottie-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lottie-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		A8B7CDA7D895DFE5D3216DA8CDB550EB /* Pods-BuildStatcLibraryMixCathageCocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuildStatcLibraryMixCathageCocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
-		AC6F6A87834BB150426B01714D8671CF /* libwebp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libwebp.framework; path = ../../Carthage/Build/iOS/Static/libwebp.framework; sourceTree = "<group>"; };
-		B8D37CFA5BFE3310F863760366FDCCEA /* SDWebImageWebPCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImageWebPCoder.debug.xcconfig; sourceTree = "<group>"; };
+		ABA7D2FE8F81C1C0E747225E7A9DA461 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDB.framework; path = ../../Carthage/Build/iOS/Static/FMDB.framework; sourceTree = "<group>"; };
+		B658CCD89D24D5D601938EDB382B6945 /* libwebp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libwebp.release.xcconfig; sourceTree = "<group>"; };
+		BB643AEAE602365878A309CD703BEF16 /* IGListKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGListKit.debug.xcconfig; sourceTree = "<group>"; };
 		BBCEC6E1EF19EBC2AE6FDAA22E1F02D8 /* Pods-BuildStatcLibraryMixCathageCocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuildStatcLibraryMixCathageCocoaPods.release.xcconfig"; sourceTree = "<group>"; };
-		C4EB651EB8E9E57B6705878D5F1FDDB0 /* libwebp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libwebp.debug.xcconfig; sourceTree = "<group>"; };
-		C5479022B38E8B053B802AEE7795FB3B /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = ../../Carthage/Build/iOS/Static/Lottie.framework; sourceTree = "<group>"; };
+		BBFD00C852FD114CE1CF17E8BD588CE9 /* libwebp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = libwebp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC5CD49A387552EC3F46B6A164351EE2 /* SDWebImageWebPCoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImageWebPCoder.release.xcconfig; sourceTree = "<group>"; };
+		BC61CE869BDE5EC7B545393EA70A2897 /* libwebp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libwebp.framework; path = ../../Carthage/Build/iOS/Static/libwebp.framework; sourceTree = "<group>"; };
+		C075B2CC03B14CDF7831A1D743C98DC9 /* MarqueeLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.release.xcconfig; sourceTree = "<group>"; };
+		C667FFC0406F497939633452A730931D /* SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.debug.xcconfig; sourceTree = "<group>"; };
 		CB667BBDB457FA14C94626B062E26BD7 /* Pods-BuildStatcLibraryMixCathageCocoaPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BuildStatcLibraryMixCathageCocoaPods-dummy.m"; sourceTree = "<group>"; };
-		D13348FC8E3E4AE4A1FB59AE950D451B /* MarqueeLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MarqueeLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DE11774CB4AFE2AE1CFE6E99AA3AA2B1 /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
-		EE4C94AD32D88D1F22AE94176E816C36 /* FMDB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FMDB.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F0D57AA0FD31F1C31620A4CDE74C0347 /* SDWebImageWebPCoder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDWebImageWebPCoder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6311415180FA2BA47A94735D039CA7C /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = ../../Carthage/Build/iOS/Static/Lottie.framework; sourceTree = "<group>"; };
+		D7AD87DBB2B93FB1E8F5181482296E74 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = ../../Carthage/Build/iOS/Static/SDWebImage.framework; sourceTree = "<group>"; };
+		DC9180FF45A81706E0D3B518F6D62DC2 /* IGListKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListKit.framework; path = ../../Carthage/Build/iOS/Static/IGListKit.framework; sourceTree = "<group>"; };
+		E5EC8AC85E45783117571B830890C88D /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		EB06261D6D3BFD44BC920379D8C50126 /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
+		F3E45D4CC9EBE1B8BC4743F2FE23408A /* MarqueeLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MarqueeLabel.framework; path = ../../Carthage/Build/iOS/Static/MarqueeLabel.framework; sourceTree = "<group>"; };
+		F6D9C9E58DDD13F3629AA7E1410603D2 /* SDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.release.xcconfig; sourceTree = "<group>"; };
+		F766EE96F96D72A087E3AB35EE7C9A50 /* lottie-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lottie-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		57E1481258BFDC04FCEABC95F762BD72 /* Frameworks */ = {
+		3132922E27D4525C2CA79908356C33E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -177,15 +217,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01FC3A1BD93DC746D17BBEEAB086C734 /* MarqueeLabel */ = {
+		01A99F59C9BE33E3F06241DFC2CC7BF9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E3D7415DD797F150C63E0F985C5DD0BF /* Frameworks */,
-				EF5A899DB98C4901018CD36D05BC5A89 /* Pod */,
-				C7C5AB1E89472AFA79BF8FFD610C2F22 /* Support Files */,
+				897CCE3B019E1DBA21713D50E5066EAF /* FMDB.podspec */,
 			);
-			name = MarqueeLabel;
-			path = ../CarthagePods/MarqueeLabel;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		034F55AC1513100E6B6A23C70F0349E4 /* Products */ = {
@@ -196,167 +233,210 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04DFC86C7D6CD79733ABD90D14F8368D /* Pod */ = {
+		038BB78E3DB3F34E4B226483EB42CDAD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EE4C94AD32D88D1F22AE94176E816C36 /* FMDB.podspec */,
+				95A87CD7FE8B96850A95019704932542 /* lottie-ios.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		08E572EBC0DB51202F3994444AC95EC4 /* Frameworks */ = {
+		1B5A7C75C93D40B9EDB266A45E902C29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AC6F6A87834BB150426B01714D8671CF /* libwebp.framework */,
+				ABA7D2FE8F81C1C0E747225E7A9DA461 /* FMDB.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		158A550F48FD98EA1B56E6A2C123461D /* AFNetworking */ = {
+		1CC42C43720B2714A68B61FBE79A7D81 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				51AB5CF9716832CE5714F5C29852044B /* Frameworks */,
-				8208F0A4D61BD759DF1C4A2166010B40 /* Pod */,
-				9378ED38ACE95DF3C8369E4AE247B7F9 /* Support Files */,
-			);
-			name = AFNetworking;
-			path = ../CarthagePods/AFNetworking;
-			sourceTree = "<group>";
-		};
-		16EC3B36FAE71779554B4419A2C34DCA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6920E3B08D8324CA2F8976EA2FFBC63F /* SDWebImage.debug.xcconfig */,
-				928E9C11A5468A158D060E78438FB7DF /* SDWebImage.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/SDWebImage";
-			sourceTree = "<group>";
-		};
-		17D15ED0192A13E77A18D9039DEDF5FC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C4EB651EB8E9E57B6705878D5F1FDDB0 /* libwebp.debug.xcconfig */,
-				83EF264378A1066F0ED56906C89A362B /* libwebp.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/libwebp";
-			sourceTree = "<group>";
-		};
-		28C2D35CFC5A0A8A3DF97B545810AACB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				158A550F48FD98EA1B56E6A2C123461D /* AFNetworking */,
-				95449819C941AEC127ED51A341268505 /* FMDB */,
-				C67987AB65410403FCA384F53E516F0B /* libwebp */,
-				BC99098C4D5A0B4CE86F7CDC6FA088CE /* lottie-ios */,
-				01FC3A1BD93DC746D17BBEEAB086C734 /* MarqueeLabel */,
-				3C0A588A3E849B95DD29251A0076A51D /* SDWebImage */,
-				BCC66C552EFC0F2CCB78EA1B2089E706 /* SDWebImageWebPCoder */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2927E418776516F7AE7F322D2879D9B8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1E6450C5861FAA4CD79303B0C30616B5 /* SDWebImageWebPCoder.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3C0A588A3E849B95DD29251A0076A51D /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				6D537453E9A85EB6C0010D7BC9A94030 /* Frameworks */,
-				B7D6A2B81D76930B36B68F639E48B6B9 /* Pod */,
-				16EC3B36FAE71779554B4419A2C34DCA /* Support Files */,
+				FD52D70420C6C38B80837794CF53DC95 /* Frameworks */,
+				D10374BD94CCFB06BC229B7F535F2CAE /* Pod */,
+				B77022B2C11A33EC25B3467DE85466EE /* Support Files */,
 			);
 			name = SDWebImage;
 			path = ../CarthagePods/SDWebImage;
 			sourceTree = "<group>";
 		};
-		3E21A083DBD43B5FB2E6D8B7809CF041 /* Pod */ = {
+		25239020F14F4612A09EED67B123C402 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6C6F3FF54574549E98457CAFE6F340B3 /* libwebp.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4FE0089EFE21FDB8AE758DCD3591CFF9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0C23CBDD8C1DD6A96125E9C3C8527E33 /* FMDB.debug.xcconfig */,
-				DE11774CB4AFE2AE1CFE6E99AA3AA2B1 /* FMDB.release.xcconfig */,
+				4A2C2EF92ED4CDF22FAD5495D4FC73AB /* FMDB.debug.xcconfig */,
+				EB06261D6D3BFD44BC920379D8C50126 /* FMDB.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../../Pods/Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
-		504193E14B4E8E9439EBFB7078FB5364 /* Support Files */ = {
+		2CEA86B17F92F0B01FB0BEC799673E5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3CFFE832F48AA39BF1078F151081AAB6 /* lottie-ios.debug.xcconfig */,
-				836052615F19207C6C5E8FBD3D74D3E3 /* lottie-ios.release.xcconfig */,
+				D6311415180FA2BA47A94735D039CA7C /* Lottie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D2FEC318DB91398D08A2FB684AA267A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C8933161A72B5A0F4B940DFC17620CC /* MarqueeLabel.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3818E8ED38BB125F575E54ABA292DA45 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				700F271A5EE22E6D8BF5A145C1235E6D /* Frameworks */,
+				C6414F3859B25EBEF2E97198EEB1AD1D /* Pod */,
+				E0D437FDEF15C9C66551A8345F6F38AE /* Support Files */,
+			);
+			name = AFNetworking;
+			path = ../CarthagePods/AFNetworking;
+			sourceTree = "<group>";
+		};
+		4322F0F3BCF097C4C5039DC54CCFFC36 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				021D0EDE3D1B4D43303C953F430C8ABB /* IGListKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		43AD0B277783A5C41D88561A6F9C119A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC61CE869BDE5EC7B545393EA70A2897 /* libwebp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		451279FBDCDF3450700ABB678385E7F9 /* SDWebImageWebPCoder */ = {
+			isa = PBXGroup;
+			children = (
+				8BB45F5E07C351C0DA0A1DDA9860777C /* Frameworks */,
+				B0F847D8A8C3E28D599CF95939105D93 /* Pod */,
+				A741076E1F6A2D16AA4EC9E01501BBF5 /* Support Files */,
+			);
+			name = SDWebImageWebPCoder;
+			path = ../CarthagePods/SDWebImageWebPCoder;
+			sourceTree = "<group>";
+		};
+		529B25CE22DE0D16F7BAF762E7238B95 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A7C75C93D40B9EDB266A45E902C29 /* Frameworks */,
+				01A99F59C9BE33E3F06241DFC2CC7BF9 /* Pod */,
+				25239020F14F4612A09EED67B123C402 /* Support Files */,
+			);
+			name = FMDB;
+			path = ../CarthagePods/FMDB;
+			sourceTree = "<group>";
+		};
+		60118A66F3FCF9161CB8BA556EA2F9BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB329C3664C647840025B0763EFA8A2 /* IGListDiffKit.debug.xcconfig */,
+				736FF97291887A46567132CC39D50D4F /* IGListDiffKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/IGListDiffKit";
+			sourceTree = "<group>";
+		};
+		6B26DF22F310E4BDA431FD905CD4D3F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F9E98BCD0A5E6D8181575BF3BA41C70 /* lottie-ios.debug.xcconfig */,
+				F766EE96F96D72A087E3AB35EE7C9A50 /* lottie-ios.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../../Pods/Target Support Files/lottie-ios";
 			sourceTree = "<group>";
 		};
-		51AB5CF9716832CE5714F5C29852044B /* Frameworks */ = {
+		6C4174C485B3EE588B19AFB220282407 /* MarqueeLabel */ = {
 			isa = PBXGroup;
 			children = (
-				80E4C101032A6DCC7206271A5AACE89C /* AFNetworking.framework */,
+				803C893E8972120D972EE332FE79A0BE /* Frameworks */,
+				2D2FEC318DB91398D08A2FB684AA267A /* Pod */,
+				D2E9BD2793FD3ED1F38B4C9E8A2A7A99 /* Support Files */,
+			);
+			name = MarqueeLabel;
+			path = ../CarthagePods/MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		700F271A5EE22E6D8BF5A145C1235E6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5066D432A9CBE12BED566497CBBCAC41 /* AFNetworking.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		648C82EC60E9A46D48851BA39FB323BB /* Support Files */ = {
+		7526C9C4DCDCD7C29CA797F96B0A5DB0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B8D37CFA5BFE3310F863760366FDCCEA /* SDWebImageWebPCoder.debug.xcconfig */,
-				8B6234155FAF7210BF7A27F33990D808 /* SDWebImageWebPCoder.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/SDWebImageWebPCoder";
-			sourceTree = "<group>";
-		};
-		6D537453E9A85EB6C0010D7BC9A94030 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				274038417E93C339A755694491B6A07E /* SDWebImage.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8208F0A4D61BD759DF1C4A2166010B40 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				684D9B8D6226818A04E226D3A6C0F6C4 /* AFNetworking.podspec */,
+				BBFD00C852FD114CE1CF17E8BD588CE9 /* libwebp.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		9378ED38ACE95DF3C8369E4AE247B7F9 /* Support Files */ = {
+		803C893E8972120D972EE332FE79A0BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3C303692A0D89D2CF7D942BB05F5DD4B /* AFNetworking.debug.xcconfig */,
-				902C7ED4A1148613176642D9863AD342 /* AFNetworking.release.xcconfig */,
+				F3E45D4CC9EBE1B8BC4743F2FE23408A /* MarqueeLabel.framework */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/AFNetworking";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		95449819C941AEC127ED51A341268505 /* FMDB */ = {
+		83F7C1E668516EFF412F898469A99709 /* libwebp */ = {
 			isa = PBXGroup;
 			children = (
-				F8759275E07608EA389DD5CFAA47308C /* Frameworks */,
-				04DFC86C7D6CD79733ABD90D14F8368D /* Pod */,
-				4FE0089EFE21FDB8AE758DCD3591CFF9 /* Support Files */,
+				43AD0B277783A5C41D88561A6F9C119A /* Frameworks */,
+				7526C9C4DCDCD7C29CA797F96B0A5DB0 /* Pod */,
+				B2205C03C3A5E12D792DC5F05E6A3194 /* Support Files */,
 			);
-			name = FMDB;
-			path = ../CarthagePods/FMDB;
+			name = libwebp;
+			path = ../CarthagePods/libwebp;
+			sourceTree = "<group>";
+		};
+		8418E4C30C3C33307F51BE6AC2232DE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC9180FF45A81706E0D3B518F6D62DC2 /* IGListKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BB45F5E07C351C0DA0A1DDA9860777C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81AEE803C561A2C810AAAF06CE57BDD2 /* SDWebImageWebPCoder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92D1365E9693ADC0ACBED1CCFF6FA0E3 /* lottie-ios */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA86B17F92F0B01FB0BEC799673E5C /* Frameworks */,
+				038BB78E3DB3F34E4B226483EB42CDAD /* Pod */,
+				6B26DF22F310E4BDA431FD905CD4D3F5 /* Support Files */,
+			);
+			name = "lottie-ios";
+			path = "../CarthagePods/lottie-ios";
+			sourceTree = "<group>";
+		};
+		9B33D3F1987228ECE78E13D3FDF652E8 /* IGListKit */ = {
+			isa = PBXGroup;
+			children = (
+				8418E4C30C3C33307F51BE6AC2232DE0 /* Frameworks */,
+				4322F0F3BCF097C4C5039DC54CCFFC36 /* Pod */,
+				D22E0D048CD19F8B969305BCF276FA0E /* Support Files */,
+			);
+			name = IGListKit;
+			path = ../CarthagePods/IGListKit;
 			sourceTree = "<group>";
 		};
 		9EC818A686595B1537D0C9CE3BE52602 /* Pods-BuildStatcLibraryMixCathageCocoaPods */ = {
@@ -372,34 +452,61 @@
 			path = "Target Support Files/Pods-BuildStatcLibraryMixCathageCocoaPods";
 			sourceTree = "<group>";
 		};
-		B7D6A2B81D76930B36B68F639E48B6B9 /* Pod */ = {
+		A5CD89943EFF50647388EF6E16C0B5DE /* IGListDiffKit */ = {
 			isa = PBXGroup;
 			children = (
-				9CFA40B1B058F9D0DB5DD74F92546703 /* SDWebImage.podspec */,
+				FB5296017943FA5F4BA84665C94FD8F5 /* Frameworks */,
+				A6BFE51A3871D0EBEF5683C760B4E141 /* Pod */,
+				60118A66F3FCF9161CB8BA556EA2F9BF /* Support Files */,
+			);
+			name = IGListDiffKit;
+			path = ../CarthagePods/IGListDiffKit;
+			sourceTree = "<group>";
+		};
+		A6BFE51A3871D0EBEF5683C760B4E141 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC70ED0501DC60266CA4C41F0D4300 /* IGListDiffKit.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		BC99098C4D5A0B4CE86F7CDC6FA088CE /* lottie-ios */ = {
+		A741076E1F6A2D16AA4EC9E01501BBF5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA82059AFA4873FC02573E0FA5B4C3FA /* Frameworks */,
-				EC4FF4A7D684CA7E490234C52AC1C9FE /* Pod */,
-				504193E14B4E8E9439EBFB7078FB5364 /* Support Files */,
+				61FC5B0A638A57501D11A418FF223EF1 /* SDWebImageWebPCoder.debug.xcconfig */,
+				BC5CD49A387552EC3F46B6A164351EE2 /* SDWebImageWebPCoder.release.xcconfig */,
 			);
-			name = "lottie-ios";
-			path = "../CarthagePods/lottie-ios";
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/SDWebImageWebPCoder";
 			sourceTree = "<group>";
 		};
-		BCC66C552EFC0F2CCB78EA1B2089E706 /* SDWebImageWebPCoder */ = {
+		B0F847D8A8C3E28D599CF95939105D93 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2927E418776516F7AE7F322D2879D9B8 /* Frameworks */,
-				C1168422D6A0CA416B424154A7B12A59 /* Pod */,
-				648C82EC60E9A46D48851BA39FB323BB /* Support Files */,
+				09904A1E8F5DDAAB92DB362A9211C7A5 /* SDWebImageWebPCoder.podspec */,
 			);
-			name = SDWebImageWebPCoder;
-			path = ../CarthagePods/SDWebImageWebPCoder;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B2205C03C3A5E12D792DC5F05E6A3194 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B2E583BC67150E566C74A56DEC89D0 /* libwebp.debug.xcconfig */,
+				B658CCD89D24D5D601938EDB382B6945 /* libwebp.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/libwebp";
+			sourceTree = "<group>";
+		};
+		B77022B2C11A33EC25B3467DE85466EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C667FFC0406F497939633452A730931D /* SDWebImage.debug.xcconfig */,
+				F6D9C9E58DDD13F3629AA7E1410603D2 /* SDWebImage.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/SDWebImage";
 			sourceTree = "<group>";
 		};
 		BF5091289FD2FE6D8999E143D652820F /* Targets Support Files */ = {
@@ -410,44 +517,51 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C1168422D6A0CA416B424154A7B12A59 /* Pod */ = {
+		C6414F3859B25EBEF2E97198EEB1AD1D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F0D57AA0FD31F1C31620A4CDE74C0347 /* SDWebImageWebPCoder.podspec */,
+				39E5DDCB38B86A2A5D37D1A54FAF77D6 /* AFNetworking.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		C67987AB65410403FCA384F53E516F0B /* libwebp */ = {
-			isa = PBXGroup;
-			children = (
-				08E572EBC0DB51202F3994444AC95EC4 /* Frameworks */,
-				3E21A083DBD43B5FB2E6D8B7809CF041 /* Pod */,
-				17D15ED0192A13E77A18D9039DEDF5FC /* Support Files */,
-			);
-			name = libwebp;
-			path = ../CarthagePods/libwebp;
-			sourceTree = "<group>";
-		};
-		C7C5AB1E89472AFA79BF8FFD610C2F22 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6EDA4BA5CE01ADDAAC4079F7DF6CB5E0 /* MarqueeLabel.debug.xcconfig */,
-				0B140F33DCA008452CFFA924A4DD6F57 /* MarqueeLabel.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/MarqueeLabel";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				28C2D35CFC5A0A8A3DF97B545810AACB /* Development Pods */,
+				E9FAFCE9FA40C1E2ABC0C9940885ADC6 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				034F55AC1513100E6B6A23C70F0349E4 /* Products */,
 				BF5091289FD2FE6D8999E143D652820F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D10374BD94CCFB06BC229B7F535F2CAE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2973D08F1E66FD2DF0CA3EA4F433722B /* SDWebImage.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D22E0D048CD19F8B969305BCF276FA0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB643AEAE602365878A309CD703BEF16 /* IGListKit.debug.xcconfig */,
+				0A1DFCE546D65AE9BC7BD58DCE032A64 /* IGListKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/IGListKit";
+			sourceTree = "<group>";
+		};
+		D2E9BD2793FD3ED1F38B4C9E8A2A7A99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47AB4B2C94CA109E20E9609A4C3D1F77 /* MarqueeLabel.debug.xcconfig */,
+				C075B2CC03B14CDF7831A1D743C98DC9 /* MarqueeLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/MarqueeLabel";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -457,42 +571,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3D7415DD797F150C63E0F985C5DD0BF /* Frameworks */ = {
+		E0D437FDEF15C9C66551A8345F6F38AE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A75E2A43D15C81FA2EFE44B62B1381BB /* MarqueeLabel.framework */,
+				0FF8A1B8ACEE74C4802C7F480A093155 /* AFNetworking.debug.xcconfig */,
+				E5EC8AC85E45783117571B830890C88D /* AFNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		E9FAFCE9FA40C1E2ABC0C9940885ADC6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3818E8ED38BB125F575E54ABA292DA45 /* AFNetworking */,
+				529B25CE22DE0D16F7BAF762E7238B95 /* FMDB */,
+				A5CD89943EFF50647388EF6E16C0B5DE /* IGListDiffKit */,
+				9B33D3F1987228ECE78E13D3FDF652E8 /* IGListKit */,
+				83F7C1E668516EFF412F898469A99709 /* libwebp */,
+				92D1365E9693ADC0ACBED1CCFF6FA0E3 /* lottie-ios */,
+				6C4174C485B3EE588B19AFB220282407 /* MarqueeLabel */,
+				1CC42C43720B2714A68B61FBE79A7D81 /* SDWebImage */,
+				451279FBDCDF3450700ABB678385E7F9 /* SDWebImageWebPCoder */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FB5296017943FA5F4BA84665C94FD8F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D62D115B37A90AC1163D595A26ADD1 /* IGListDiffKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC4FF4A7D684CA7E490234C52AC1C9FE /* Pod */ = {
+		FD52D70420C6C38B80837794CF53DC95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B12F978A8E0DF5B48D9AC13A28FD6C6 /* lottie-ios.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EF5A899DB98C4901018CD36D05BC5A89 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D13348FC8E3E4AE4A1FB59AE950D451B /* MarqueeLabel.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F8759275E07608EA389DD5CFAA47308C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				02C2A02F834DD78863BCA0B12845D065 /* FMDB.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FA82059AFA4873FC02573E0FA5B4C3FA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C5479022B38E8B053B802AEE7795FB3B /* Lottie.framework */,
+				D7AD87DBB2B93FB1E8F5181482296E74 /* SDWebImage.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -500,7 +616,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		274C5D54C9C2536FF8412ADC4FB29270 /* Headers */ = {
+		A678A86D3BDC1A75B438343EEE03C8EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -512,22 +628,24 @@
 /* Begin PBXNativeTarget section */
 		717A9A40B3890C39FA2154617FC85574 /* Pods-BuildStatcLibraryMixCathageCocoaPods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A12D85E5C94802217D917B45770E596 /* Build configuration list for PBXNativeTarget "Pods-BuildStatcLibraryMixCathageCocoaPods" */;
+			buildConfigurationList = F7D0F8A0F49F791A062A9198CE305043 /* Build configuration list for PBXNativeTarget "Pods-BuildStatcLibraryMixCathageCocoaPods" */;
 			buildPhases = (
-				274C5D54C9C2536FF8412ADC4FB29270 /* Headers */,
-				F00E834BE8F3F897D3254809533960D1 /* Sources */,
-				57E1481258BFDC04FCEABC95F762BD72 /* Frameworks */,
+				A678A86D3BDC1A75B438343EEE03C8EC /* Headers */,
+				A1CFCA3BAF5D19125142B1CE5E813499 /* Sources */,
+				3132922E27D4525C2CA79908356C33E5 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C90938F3B532C496489DA405C533F563 /* PBXTargetDependency */,
-				C8CF0576D8C59C9B5452000F24F46C82 /* PBXTargetDependency */,
-				ADC1F265915949A3DD87592D51B82B15 /* PBXTargetDependency */,
-				8551B9EEDA2E6E0AA7D8B39DD8D0751A /* PBXTargetDependency */,
-				A3C3D3F4EEC4E2BB42A675F83ADC264B /* PBXTargetDependency */,
-				9D2BEA08E1C14F01F48ABA4CD95C1531 /* PBXTargetDependency */,
-				D75B3722D99DFB8AC58F0CA7ECCBA19E /* PBXTargetDependency */,
+				812A38C6F3F5492397D164E0947F7CDF /* PBXTargetDependency */,
+				D5BF22BF67CE86B5EA6B8C9E0DD5AD17 /* PBXTargetDependency */,
+				CF57A0C78AC032B6B27ECF2CF45290AD /* PBXTargetDependency */,
+				C4F8438A09B8B75CABE09FCADB6791F0 /* PBXTargetDependency */,
+				895B2CB95599E244FE38491F06B3C750 /* PBXTargetDependency */,
+				5E8F3FA81510515247F3A9B2422403AC /* PBXTargetDependency */,
+				BCA16943AE08B1FFC06DFAD38DC8CF1D /* PBXTargetDependency */,
+				F1F71335B99D2C581997DA1939657795 /* PBXTargetDependency */,
+				FFE1BD4128BECD0ECED91DE2695EF6F2 /* PBXTargetDependency */,
 			);
 			name = "Pods-BuildStatcLibraryMixCathageCocoaPods";
 			productName = "Pods-BuildStatcLibraryMixCathageCocoaPods";
@@ -558,6 +676,8 @@
 			targets = (
 				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
 				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
+				2D07A05F514BF9C5434DAC907988C708 /* IGListDiffKit */,
+				674FDCAB4D51E702521F4CD31807F659 /* IGListKit */,
 				47D2E85A78C25869BB13521D8561A638 /* libwebp */,
 				0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */,
 				C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */,
@@ -569,63 +689,75 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F00E834BE8F3F897D3254809533960D1 /* Sources */ = {
+		A1CFCA3BAF5D19125142B1CE5E813499 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FADAACE3DDD8707BD7ED6490A2AC3B1 /* Pods-BuildStatcLibraryMixCathageCocoaPods-dummy.m in Sources */,
+				9FC8BC370334E0FF953E00C5BB0A1D04 /* Pods-BuildStatcLibraryMixCathageCocoaPods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8551B9EEDA2E6E0AA7D8B39DD8D0751A /* PBXTargetDependency */ = {
+		5E8F3FA81510515247F3A9B2422403AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
 			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
-			targetProxy = 98F89EE5C3095129C39F3C56465C2691 /* PBXContainerItemProxy */;
+			targetProxy = 9032600BEDDBA060BDCA012E4F7D5DA9 /* PBXContainerItemProxy */;
 		};
-		9D2BEA08E1C14F01F48ABA4CD95C1531 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libwebp;
-			target = 47D2E85A78C25869BB13521D8561A638 /* libwebp */;
-			targetProxy = 8749300A69EE993E424ABE5ACA85EA07 /* PBXContainerItemProxy */;
-		};
-		A3C3D3F4EEC4E2BB42A675F83ADC264B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SDWebImageWebPCoder;
-			target = 1953860EA9853AA2BC8022B242F08512 /* SDWebImageWebPCoder */;
-			targetProxy = 6B979E0C6342321063BDCE32C95143E1 /* PBXContainerItemProxy */;
-		};
-		ADC1F265915949A3DD87592D51B82B15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MarqueeLabel;
-			target = C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */;
-			targetProxy = 13171FEC6212E14E8B83EAEDA8A0B985 /* PBXContainerItemProxy */;
-		};
-		C8CF0576D8C59C9B5452000F24F46C82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = A692102C690DEBE1A28D8B9821A00D4D /* PBXContainerItemProxy */;
-		};
-		C90938F3B532C496489DA405C533F563 /* PBXTargetDependency */ = {
+		812A38C6F3F5492397D164E0947F7CDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = DCD57264B633645461E05FDB837EDC44 /* PBXContainerItemProxy */;
+			targetProxy = 816937F778B07C674ACEB35C8738AF77 /* PBXContainerItemProxy */;
 		};
-		D75B3722D99DFB8AC58F0CA7ECCBA19E /* PBXTargetDependency */ = {
+		895B2CB95599E244FE38491F06B3C750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */;
+			targetProxy = 1FA21C356A943E92C6FCB410F2B171CD /* PBXContainerItemProxy */;
+		};
+		BCA16943AE08B1FFC06DFAD38DC8CF1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImageWebPCoder;
+			target = 1953860EA9853AA2BC8022B242F08512 /* SDWebImageWebPCoder */;
+			targetProxy = 2BB2320A0E6E7C224960674FDC15B4FC /* PBXContainerItemProxy */;
+		};
+		C4F8438A09B8B75CABE09FCADB6791F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListKit;
+			target = 674FDCAB4D51E702521F4CD31807F659 /* IGListKit */;
+			targetProxy = 7D60DC365BE9C019177758FB28B68768 /* PBXContainerItemProxy */;
+		};
+		CF57A0C78AC032B6B27ECF2CF45290AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListDiffKit;
+			target = 2D07A05F514BF9C5434DAC907988C708 /* IGListDiffKit */;
+			targetProxy = 2B0555E20F17D13AFA799FA1783AA5E8 /* PBXContainerItemProxy */;
+		};
+		D5BF22BF67CE86B5EA6B8C9E0DD5AD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 8C23976F27E9264FC3E8945242C78BE8 /* PBXContainerItemProxy */;
+		};
+		F1F71335B99D2C581997DA1939657795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libwebp;
+			target = 47D2E85A78C25869BB13521D8561A638 /* libwebp */;
+			targetProxy = 023F280480A036E928EEE5E11A1159C4 /* PBXContainerItemProxy */;
+		};
+		FFE1BD4128BECD0ECED91DE2695EF6F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "lottie-ios";
 			target = 0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */;
-			targetProxy = 5E11B6D9543BB6833F72C9D13F46B357 /* PBXContainerItemProxy */;
+			targetProxy = 4237DF928BE6873F2F44430034B87842 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		083FD52F2201642031F2FDA1E9A69A6D /* Release */ = {
+		05A4F497F9814472597D91708FA95AD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBCEC6E1EF19EBC2AE6FDAA22E1F02D8 /* Pods-BuildStatcLibraryMixCathageCocoaPods.release.xcconfig */;
 			buildSettings = {
@@ -649,7 +781,7 @@
 		};
 		1400FA4266BAB6680400D5338BC79898 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CFFE832F48AA39BF1078F151081AAB6 /* lottie-ios.debug.xcconfig */;
+			baseConfigurationReference = 9F9E98BCD0A5E6D8181575BF3BA41C70 /* lottie-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -665,7 +797,7 @@
 		};
 		1726B78470FAE9499549BAC7C3490FC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EDA4BA5CE01ADDAAC4079F7DF6CB5E0 /* MarqueeLabel.debug.xcconfig */;
+			baseConfigurationReference = 47AB4B2C94CA109E20E9609A4C3D1F77 /* MarqueeLabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -681,7 +813,24 @@
 		};
 		62CEA9D937B3FC65D9DCEE60FDEF34A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE11774CB4AFE2AE1CFE6E99AA3AA2B1 /* FMDB.release.xcconfig */;
+			baseConfigurationReference = EB06261D6D3BFD44BC920379D8C50126 /* FMDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6496AF2170E5C06F0F82AADA23592022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A1DFCE546D65AE9BC7BD58DCE032A64 /* IGListKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -698,7 +847,7 @@
 		};
 		66FEAF8D7BF0343B41B7FD7BC3760A43 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B6234155FAF7210BF7A27F33990D808 /* SDWebImageWebPCoder.release.xcconfig */;
+			baseConfigurationReference = BC5CD49A387552EC3F46B6A164351EE2 /* SDWebImageWebPCoder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -715,7 +864,7 @@
 		};
 		71A52B14E6FE8E4B0D129679894CC214 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C303692A0D89D2CF7D942BB05F5DD4B /* AFNetworking.debug.xcconfig */;
+			baseConfigurationReference = 0FF8A1B8ACEE74C4802C7F480A093155 /* AFNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -725,27 +874,6 @@
 					"@executable_path/Frameworks",
 				);
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		77F42C6BE187A391AB5FE5DB267FD359 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8B7CDA7D895DFE5D3216DA8CDB550EB /* Pods-BuildStatcLibraryMixCathageCocoaPods.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -814,7 +942,7 @@
 		};
 		812A4AC28A793E26A71251CEDEA70600 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6920E3B08D8324CA2F8976EA2FFBC63F /* SDWebImage.debug.xcconfig */;
+			baseConfigurationReference = C667FFC0406F497939633452A730931D /* SDWebImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -828,9 +956,26 @@
 			};
 			name = Debug;
 		};
+		AA319AD0159FF8FF6FAE47B07D8A023F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736FF97291887A46567132CC39D50D4F /* IGListDiffKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		AC763CA9455D4C16228863D6DE7CAD91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 836052615F19207C6C5E8FBD3D74D3E3 /* lottie-ios.release.xcconfig */;
+			baseConfigurationReference = F766EE96F96D72A087E3AB35EE7C9A50 /* lottie-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -847,7 +992,23 @@
 		};
 		AD9398254F7FD813F816CC1A258B58AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4EB651EB8E9E57B6705878D5F1FDDB0 /* libwebp.debug.xcconfig */;
+			baseConfigurationReference = 93B2E583BC67150E566C74A56DEC89D0 /* libwebp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8F890D6FB14C1F89F1D4ACC7A6321DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB643AEAE602365878A309CD703BEF16 /* IGListKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -863,7 +1024,7 @@
 		};
 		BEB75DDA206FB03F08BCFD2B37D776A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83EF264378A1066F0ED56906C89A362B /* libwebp.release.xcconfig */;
+			baseConfigurationReference = B658CCD89D24D5D601938EDB382B6945 /* libwebp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -880,7 +1041,7 @@
 		};
 		C2F5E6471A99054001FD73AEE31569E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B140F33DCA008452CFFA924A4DD6F57 /* MarqueeLabel.release.xcconfig */;
+			baseConfigurationReference = C075B2CC03B14CDF7831A1D743C98DC9 /* MarqueeLabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -897,7 +1058,23 @@
 		};
 		C497C84B3A48F3554E6F1B0133E9C2C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8D37CFA5BFE3310F863760366FDCCEA /* SDWebImageWebPCoder.debug.xcconfig */;
+			baseConfigurationReference = 61FC5B0A638A57501D11A418FF223EF1 /* SDWebImageWebPCoder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9B3DD60BADD6D0EF05EA3C3D2A78CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB329C3664C647840025B0763EFA8A2 /* IGListDiffKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -979,7 +1156,7 @@
 		};
 		E3EFA7BC0EC7564B962D0564AB377CD0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 928E9C11A5468A158D060E78438FB7DF /* SDWebImage.release.xcconfig */;
+			baseConfigurationReference = F6D9C9E58DDD13F3629AA7E1410603D2 /* SDWebImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -996,7 +1173,7 @@
 		};
 		E9866E20C51BF98390B38D177CF98B9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C23CBDD8C1DD6A96125E9C3C8527E33 /* FMDB.debug.xcconfig */;
+			baseConfigurationReference = 4A2C2EF92ED4CDF22FAD5495D4FC73AB /* FMDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1012,7 +1189,7 @@
 		};
 		EC10D9FEC312BAB1EC45ADDFBD58DDAE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 902C7ED4A1148613176642D9863AD342 /* AFNetworking.release.xcconfig */;
+			baseConfigurationReference = E5EC8AC85E45783117571B830890C88D /* AFNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1027,6 +1204,27 @@
 			};
 			name = Release;
 		};
+		F7F083885886A645B45E5B7CCF55DC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B7CDA7D895DFE5D3216DA8CDB550EB /* Pods-BuildStatcLibraryMixCathageCocoaPods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1035,15 +1233,6 @@
 			buildConfigurations = (
 				812A4AC28A793E26A71251CEDEA70600 /* Debug */,
 				E3EFA7BC0EC7564B962D0564AB377CD0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3A12D85E5C94802217D917B45770E596 /* Build configuration list for PBXNativeTarget "Pods-BuildStatcLibraryMixCathageCocoaPods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				77F42C6BE187A391AB5FE5DB267FD359 /* Debug */,
-				083FD52F2201642031F2FDA1E9A69A6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1071,6 +1260,24 @@
 			buildConfigurations = (
 				E9866E20C51BF98390B38D177CF98B9C /* Debug */,
 				62CEA9D937B3FC65D9DCEE60FDEF34A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80595F6650DA2765289574CD9A293EFC /* Build configuration list for PBXAggregateTarget "IGListDiffKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B3DD60BADD6D0EF05EA3C3D2A78CC0 /* Debug */,
+				AA319AD0159FF8FF6FAE47B07D8A023F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874F7E181A5A74C260FD6354A0F1B098 /* Build configuration list for PBXAggregateTarget "IGListKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F890D6FB14C1F89F1D4ACC7A6321DA /* Debug */,
+				6496AF2170E5C06F0F82AADA23592022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1107,6 +1314,15 @@
 			buildConfigurations = (
 				1726B78470FAE9499549BAC7C3490FC0 /* Debug */,
 				C2F5E6471A99054001FD73AEE31569E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D0F8A0F49F791A062A9198CE305043 /* Build configuration list for PBXNativeTarget "Pods-BuildStatcLibraryMixCathageCocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F083885886A645B45E5B7CCF55DC0D /* Debug */,
+				05A4F497F9814472597D91708FA95AD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

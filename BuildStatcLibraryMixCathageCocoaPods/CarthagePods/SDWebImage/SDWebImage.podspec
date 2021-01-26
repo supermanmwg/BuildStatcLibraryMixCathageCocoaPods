@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.vendored_frameworks = 'SDWebImage.framework'
+  s.static_framework = true
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"${SRCROOT}/CarthagePods/SDWebImage/SDWebImage.framework/Headers"' }
-
 end

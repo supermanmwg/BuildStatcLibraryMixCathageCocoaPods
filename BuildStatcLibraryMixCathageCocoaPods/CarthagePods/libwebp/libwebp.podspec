@@ -7,5 +7,6 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'BSD' }
   s.source           = { :git => 'https://chromium.googlesource.com/webm/libwebp', :tag => 'v' + s.version.to_s }
   s.vendored_frameworks = 'libwebp.framework'
+  s.static_framework = true
   s.ios.deployment_target = '9.0'
 end

@@ -15,6 +15,8 @@ target 'BuildStatcLibraryMixCathageCocoaPods' do
     pod 'lottie-ios', :path => $CarthagePodsPath + "lottie-ios"
     pod 'FMDB', :path => $CarthagePodsPath + "FMDB"
     pod 'MarqueeLabel', :path => $CarthagePodsPath + "MarqueeLabel"
+    pod 'IGListKit', :path => $CarthagePodsPath + "IGListKit"
+    pod 'IGListDiffKit', :path => $CarthagePodsPath + "IGListDiffKit"
   else 
    pod 'AFNetworking', '4.0.1'
    pod 'SDWebImage', '5.10.0'
@@ -22,6 +24,7 @@ target 'BuildStatcLibraryMixCathageCocoaPods' do
    pod 'lottie-ios', '3.1.8'
    pod 'FMDB', '2.7.5'
    pod 'MarqueeLabel', '4.0.2'
+   pod 'IGListKit', '4.0.0'
   end
   
 end

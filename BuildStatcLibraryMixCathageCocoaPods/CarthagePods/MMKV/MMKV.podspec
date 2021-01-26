@@ -22,4 +22,5 @@ Pod::Spec.new do |s|
     "CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF" => "NO",
   }
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"${SRCROOT}/CarthagePods/MMKV/MMKV.framework/Headers"' }
+  s.static_framework = true
 end
