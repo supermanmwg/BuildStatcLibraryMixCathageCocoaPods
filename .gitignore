@@ -47,6 +47,7 @@ DerivedData/
 # Carthage/Checkouts
 
 Carthage/Build/
+MainCarfile.resolved
 
 # fastlane
 #

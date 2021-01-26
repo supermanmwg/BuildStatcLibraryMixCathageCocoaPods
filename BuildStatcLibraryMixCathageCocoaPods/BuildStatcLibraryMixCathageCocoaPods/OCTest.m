@@ -15,4 +15,6 @@
 
 @implementation OCTest
 
+- (void)test {
+}
 @end

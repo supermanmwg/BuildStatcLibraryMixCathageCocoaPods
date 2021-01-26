@@ -1,24 +1,32 @@
 PODS:
   - AFNetworking (4.0.1)
+  - FMDB (4.0.1)
   - libwebp (1.1.0)
   - lottie-ios (3.1.8)
+  - MarqueeLabel (4.0.2)
   - SDWebImage (5.10.0)
   - SDWebImageWebPCoder (0.8.1)
 
 DEPENDENCIES:
   - AFNetworking (from `./CarthagePods/AFNetworking`)
+  - FMDB (from `./CarthagePods/FMDB`)
   - libwebp (from `./CarthagePods/libwebp`)
   - lottie-ios (from `./CarthagePods/lottie-ios`)
+  - MarqueeLabel (from `./CarthagePods/MarqueeLabel`)
   - SDWebImage (from `./CarthagePods/SDWebImage`)
   - SDWebImageWebPCoder (from `./CarthagePods/SDWebImageWebPCoder`)
 
 EXTERNAL SOURCES:
   AFNetworking:
     :path: "./CarthagePods/AFNetworking"
+  FMDB:
+    :path: "./CarthagePods/FMDB"
   libwebp:
     :path: "./CarthagePods/libwebp"
   lottie-ios:
     :path: "./CarthagePods/lottie-ios"
+  MarqueeLabel:
+    :path: "./CarthagePods/MarqueeLabel"
   SDWebImage:
     :path: "./CarthagePods/SDWebImage"
   SDWebImageWebPCoder:
@@ -26,11 +34,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 6f66ef905996fa01c18f103f5333bc1f4909726c
+  FMDB: 4df388f724de7746fb4be8c25bf463e9d54298f2
   libwebp: baa94c2071b21454af968e6a354c62f52b7e084c
   lottie-ios: 28ae1605003386e73a4bcd45d669dabf0f471407
+  MarqueeLabel: 69cedce35361f79060f8a9a806e05e1d4c9ef8bd
   SDWebImage: 276776811cf32b6596dee00cbe2dcabbd2c3c27d
   SDWebImageWebPCoder: 6bbe193df638509dde248088135132daa51d5386
 
-PODFILE CHECKSUM: 9bceeaeddb01af4c3b841a99b7ea4c326ddd7d3a
+PODFILE CHECKSUM: c003bcca7012ddef3768424b063db4df21f70130
 
 COCOAPODS: 1.10.1

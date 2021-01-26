@@ -1,3 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 version = '10.0'
 platform :ios, version
 
@@ -11,11 +13,15 @@ target 'BuildStatcLibraryMixCathageCocoaPods' do
     pod 'libwebp', :path => "./CarthagePods/libwebp"
     pod 'SDWebImageWebPCoder', :path => "./CarthagePods/SDWebImageWebPCoder"
     pod 'lottie-ios', :path => $CarthagePodsPath + "lottie-ios"
+    pod 'FMDB', :path => $CarthagePodsPath + "FMDB"
+    pod 'MarqueeLabel', :path => $CarthagePodsPath + "MarqueeLabel"
   else 
    pod 'AFNetworking', '4.0.1'
    pod 'SDWebImage', '5.10.0'
    pod 'SDWebImageWebPCoder', '0.8.1'
    pod 'lottie-ios', '3.1.8'
+   pod 'FMDB', '2.7.5'
+   pod 'MarqueeLabel', '4.0.2'
   end
   
 end

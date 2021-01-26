@@ -1,0 +1,39 @@
+PODS:
+  - Flutter (1.0.0)
+  - MMKV (1.2.7):
+    - MMKVCore (~> 1.2.7)
+  - MMKVCore (1.2.7)
+  - mmkvflutter (1.2.8):
+    - Flutter
+    - MMKV (>= 1.2.7)
+  - path_provider (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - mmkvflutter (from `.symlinks/plugins/mmkvflutter/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MMKV
+    - MMKVCore
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  mmkvflutter:
+    :path: ".symlinks/plugins/mmkvflutter/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  MMKV: 22e5136f7d00197bc0fc9694b7f71519f0d1ca12
+  MMKVCore: 607b7b05f2c2140056b5d338e45f2c14bf3f4232
+  mmkvflutter: 2c306eaf1d620dc7c6ad06265e085b4a8f4c9d0a
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+
+PODFILE CHECKSUM: 56a04502099a98f6f9fd2c6f8055159cd69b1375
+
+COCOAPODS: 1.10.0

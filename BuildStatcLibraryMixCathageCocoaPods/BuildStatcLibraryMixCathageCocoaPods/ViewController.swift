@@ -7,6 +7,7 @@
 
 import UIKit
 import Lottie
+import MarqueeLabel
 
 class ViewController: UIViewController {
     let animationView = AnimationView()
@@ -14,6 +15,7 @@ class ViewController: UIViewController {
     var displayLink: CADisplayLink?
     var customImageView:SDAnimatedImageView!
     var sdImageView: UIImageView!
+    private var nameLabel: MarqueeLabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +24,7 @@ class ViewController: UIViewController {
         lottieTest()
         sdTest()
         afTest()
+        marqueeLabelTest()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -36,6 +39,16 @@ class ViewController: UIViewController {
                             print("Animation cancelled")
                           }
       })
+    }
+    
+    func marqueeLabelTest() {
+        nameLabel = MarqueeLabel(frame: CGRect(x: 10, y: 150, width: 50, height: 17), rate: 30, fadeLength: 10)
+        nameLabel.textColor = UIColor.green
+        nameLabel.font = UIFont.systemFont(ofSize: 15)
+        nameLabel.contentMode = .center
+        nameLabel.textAlignment = .center
+        nameLabel.text = "marqueeLabelTest is a label!!!"
+        view.addSubview(nameLabel)
     }
     
     func afTest() {

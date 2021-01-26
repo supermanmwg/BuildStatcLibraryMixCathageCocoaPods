@@ -118,6 +118,7 @@
 			buildConfigurationList = 3CCA64CB25BE6A5400F5DC6C /* Build configuration list for PBXNativeTarget "BuildStatcLibraryMixCathageCocoaPods" */;
 			buildPhases = (
 				E7D35B6CACBF6A263E0DEC1E /* [CP] Check Pods Manifest.lock */,
+				3C1BC84E25BFED9900357702 /* [CP] Check Carthage Manifest.lock */,
 				3CCA64B325BE6A5200F5DC6C /* Sources */,
 				3CCA64B425BE6A5200F5DC6C /* Frameworks */,
 				3CCA64B525BE6A5200F5DC6C /* Resources */,
@@ -179,6 +180,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3C1BC84E25BFED9900357702 /* [CP] Check Carthage Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Carthage Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! -d \"${SRCROOT}/Carthage/Build/\" ];then\n    ${SRCROOT}/carthage.sh -I\nelse\n    echo \"Carthage/Build/文件夹已经存在\"\nfi\n\n#更新\nif [ ! -f \"${SRCROOT}/MainCarfile.resolved\" ];then\n    ${SRCROOT}/carthage.sh\nelse\n    diff \"${SRCROOT}/Cartfile.resolved\" \"${SRCROOT}/MainCarfile.resolved\" > /dev/null\n    if [ $? != 0 ] ; then\n        echo \"carthage need update!\"\n        ${SRCROOT}/carthage.sh\n    fi\nfi\n\n";
+		};
 		E7D35B6CACBF6A263E0DEC1E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

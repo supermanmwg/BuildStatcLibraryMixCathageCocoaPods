@@ -1,0 +1,29 @@
+{
+  "name": "MarqueeLabel",
+  "version": "4.0.2",
+  "summary": "A drop-in replacement for UILabel, which automatically adds a scrolling marquee effect when needed.",
+  "homepage": "https://github.com/cbpowell/MarqueeLabel",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": "Charles Powell",
+  "source": {
+    "git": "https://github.com/cbpowell/MarqueeLabel.git",
+    "tag": "4.0.2"
+  },
+  "frameworks": [
+    "UIKit",
+    "QuartzCore"
+  ],
+  "requires_arc": true,
+  "source_files": "Sources/*.swift",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "5.0",
+  "vendored_frameworks": "MarqueeLabel.framework",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"${SRCROOT}/CarthagePods/MarqueeLabel/MarqueeLabel.framework/Headers\""
+  },
+  "swift_version": "5.0"
+}

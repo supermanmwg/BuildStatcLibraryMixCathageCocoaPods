@@ -4,7 +4,9 @@ set -euo pipefail
 echo "用法：
 1.本脚本后面无参数，直接默认：
 carthage update --platform iOS --no-use-binaries --cache-builds
-2.有参数则等同于carthage命令"
+2.有参数 -I | -Init
+carthage build --platform iOS --no-use-binaries --cache-builds
+3.除2以为有参数则等同于carthage命令"
 
 #First Init 
 FIRST_INIT="false"
@@ -65,3 +67,5 @@ elif [ $FIRST_INIT == "true" ]; then
 else
     carthage "$@"
 fi
+
+cp Cartfile.resolved MainCarfile.resolved
