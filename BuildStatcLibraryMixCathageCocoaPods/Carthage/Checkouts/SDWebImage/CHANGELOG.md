@@ -1,3 +1,22 @@
+## [5.10.3 - 5.10 Patch, on Jan 24th, 2021](https://github.com/rs/SDWebImage/releases/tag/5.10.3)
+See [all tickets marked for the 5.10.3 release](https://github.com/SDWebImage/SDWebImage/milestone/86)
+
+### Fixes
+- Fixed the store cache type was specified to `SDImageCacheTypeDisk ` that pictures shouldn't cache to memory. #3157
+
+## [5.10.2 - 5.10 Patch, on Dec 29th, 2020](https://github.com/rs/SDWebImage/releases/tag/5.10.2)
+See [all tickets marked for the 5.10.2 release](https://github.com/SDWebImage/SDWebImage/milestone/85)
+
+### Fixes
+- Fix the case that we setFinished=YES before NSOperation started. This may cause exception from Foundation #3146
+
+## [5.10.1 - 5.10 Patch, on Dec 25th, 2020](https://github.com/rs/SDWebImage/releases/tag/5.10.1)
+See [all tickets marked for the 5.10.1 release](https://github.com/SDWebImage/SDWebImage/milestone/83)
+
+### Fixes
+- Fix the race condition when user cancel the network loading will not trigger the completion block #3142
+- Fix deprecation warnings for OSSpinLock #3137
+
 ## [5.10.0 - iOS 9+/Xcode 11+, on Nov 22nd, 2020](https://github.com/rs/SDWebImage/releases/tag/5.10.0)
 See [all tickets marked for the 5.10.0 release](https://github.com/SDWebImage/SDWebImage/milestone/82)
 

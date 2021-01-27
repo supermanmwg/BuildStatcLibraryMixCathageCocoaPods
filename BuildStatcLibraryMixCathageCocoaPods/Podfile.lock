@@ -2,55 +2,87 @@ PODS:
   - AFNetworking (4.0.1)
   - FMDB (4.0.1)
   - IGListDiffKit (4.0.0)
-  - IGListKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - KVOController (1.2.0)
   - libwebp (1.1.0)
   - lottie-ios (3.1.8)
   - MarqueeLabel (4.0.2)
-  - SDWebImage (5.10.0)
+  - MBProgressHUD (1.2.0)
+  - SAMKeychain (1.5.3)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
   - SDWebImageWebPCoder (0.8.1)
+  - YYImage (1.0.4)
+  - YYText (1.0.7)
+  - ZipArchive (2.2.2)
 
 DEPENDENCIES:
   - AFNetworking (from `./CarthagePods/AFNetworking`)
   - FMDB (from `./CarthagePods/FMDB`)
-  - IGListDiffKit (from `./CarthagePods/IGListDiffKit`)
-  - IGListKit (from `./CarthagePods/IGListKit`)
+  - IGListKit (= 4.0.0)
+  - KVOController (from `./CarthagePods/KVOController`)
   - libwebp (from `./CarthagePods/libwebp`)
   - lottie-ios (from `./CarthagePods/lottie-ios`)
   - MarqueeLabel (from `./CarthagePods/MarqueeLabel`)
-  - SDWebImage (from `./CarthagePods/SDWebImage`)
+  - MBProgressHUD (from `./CarthagePods/MBProgressHUD`)
+  - SAMKeychain (from `./CarthagePods/SAMKeychain`)
+  - SDWebImage (= 5.10.0)
   - SDWebImageWebPCoder (from `./CarthagePods/SDWebImageWebPCoder`)
+  - YYImage (from `./CarthagePods/YYImage`)
+  - YYText (from `./CarthagePods/YYText`)
+  - ZipArchive (from `./CarthagePods/ZipArchive`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IGListDiffKit
+    - IGListKit
+    - SDWebImage
 
 EXTERNAL SOURCES:
   AFNetworking:
     :path: "./CarthagePods/AFNetworking"
   FMDB:
     :path: "./CarthagePods/FMDB"
-  IGListDiffKit:
-    :path: "./CarthagePods/IGListDiffKit"
-  IGListKit:
-    :path: "./CarthagePods/IGListKit"
+  KVOController:
+    :path: "./CarthagePods/KVOController"
   libwebp:
     :path: "./CarthagePods/libwebp"
   lottie-ios:
     :path: "./CarthagePods/lottie-ios"
   MarqueeLabel:
     :path: "./CarthagePods/MarqueeLabel"
-  SDWebImage:
-    :path: "./CarthagePods/SDWebImage"
+  MBProgressHUD:
+    :path: "./CarthagePods/MBProgressHUD"
+  SAMKeychain:
+    :path: "./CarthagePods/SAMKeychain"
   SDWebImageWebPCoder:
     :path: "./CarthagePods/SDWebImageWebPCoder"
+  YYImage:
+    :path: "./CarthagePods/YYImage"
+  YYText:
+    :path: "./CarthagePods/YYText"
+  ZipArchive:
+    :path: "./CarthagePods/ZipArchive"
 
 SPEC CHECKSUMS:
   AFNetworking: 7a061119bba72d5ccc95e6a1f255a246060ebfb6
   FMDB: b34b4dc78800b822c781d8dc73a41185358d6285
-  IGListDiffKit: 3f91d30ac1faa67ae3b6788aecf3f3e6aaeb3e31
-  IGListKit: 97456368d2a9309f48314d65baad11ecbed6cfe7
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  KVOController: 4cde9da777bed63c9abea11bd99446d068b7da14
   libwebp: 5cf34217e1ddf8f9206e0eefc428feec55b96e8c
   lottie-ios: 653336527797b75304b8c2d6d6528d5a4187fca5
   MarqueeLabel: 69cedce35361f79060f8a9a806e05e1d4c9ef8bd
-  SDWebImage: a463483257411df4a83b4b6e0248ba5d99562e81
+  MBProgressHUD: d9c170041813e22d83f5b4c8188a5bfccddd02e1
+  SAMKeychain: fe934849e55f1f5b0d129bd2b7bf40d34857f0c8
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
   SDWebImageWebPCoder: 9e19ae68b79a5b8bd709aa3555a593a1e7cc0da4
+  YYImage: 97f2d60b11ba03106ac84c20e6f2550fd3ffc293
+  YYText: a04b4d5f0178d01f34ab03d1ac81ead9ca7bf126
+  ZipArchive: 47c29f2da351eddd704634aafdbe89fdecd05405
 
-PODFILE CHECKSUM: d373954ada1a851ae562d5975cb250c5df9cbd98
+PODFILE CHECKSUM: ade3ae3f9c1838ceac1be3413eeb41684e34af5d
 
 COCOAPODS: 1.10.1

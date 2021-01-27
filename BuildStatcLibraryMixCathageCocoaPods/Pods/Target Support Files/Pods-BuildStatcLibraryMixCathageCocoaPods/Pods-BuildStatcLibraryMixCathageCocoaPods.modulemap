@@ -1,0 +1,6 @@
+module Pods_BuildStatcLibraryMixCathageCocoaPods {
+  umbrella header "Pods-BuildStatcLibraryMixCathageCocoaPods-umbrella.h"
+
+  export *
+  module * { export * }
+}

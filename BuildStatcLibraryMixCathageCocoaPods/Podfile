@@ -9,24 +9,34 @@ target 'BuildStatcLibraryMixCathageCocoaPods' do
 
   if $isSourceCode ==  0
     pod 'AFNetworking', :path => $CarthagePodsPath + "AFNetworking"
-    pod 'SDWebImage', :path => $CarthagePodsPath + "SDWebImage"
     pod 'libwebp', :path => "./CarthagePods/libwebp"
     pod 'SDWebImageWebPCoder', :path => "./CarthagePods/SDWebImageWebPCoder"
     pod 'lottie-ios', :path => $CarthagePodsPath + "lottie-ios"
     pod 'FMDB', :path => $CarthagePodsPath + "FMDB"
     pod 'MarqueeLabel', :path => $CarthagePodsPath + "MarqueeLabel"
-    pod 'IGListKit', :path => $CarthagePodsPath + "IGListKit"
-    pod 'IGListDiffKit', :path => $CarthagePodsPath + "IGListDiffKit"
+    pod 'YYText', :path => $CarthagePodsPath + "YYText"
+    pod 'YYImage', :path => $CarthagePodsPath + "YYImage"
+    pod 'MBProgressHUD', :path => $CarthagePodsPath + "MBProgressHUD"
+    pod 'KVOController', :path => $CarthagePodsPath + "KVOController"
+    pod 'SAMKeychain', :path => $CarthagePodsPath + "SAMKeychain"
+    pod 'ZipArchive', :path => $CarthagePodsPath + "ZipArchive"
   else 
    pod 'AFNetworking', '4.0.1'
-   pod 'SDWebImage', '5.10.0'
    pod 'SDWebImageWebPCoder', '0.8.1'
    pod 'lottie-ios', '3.1.8'
    pod 'FMDB', '2.7.5'
    pod 'MarqueeLabel', '4.0.2'
-   pod 'IGListKit', '4.0.0'
+   pod 'YYText', '1.0.7'
+   pod 'YYImage', '1.0.4'
+   pod 'MBProgressHUD', '1.2.0'
+   pod 'KVOController', '1.2.0'
+   pod 'SAMKeychain', '1.5.3'
+   pod 'SSZipArchive', '2.2.2'
   end
   
+  pod 'IGListKit', '4.0.0'
+  pod 'SDWebImage', '5.10.0'
+
 end
 
 post_install do |installer|

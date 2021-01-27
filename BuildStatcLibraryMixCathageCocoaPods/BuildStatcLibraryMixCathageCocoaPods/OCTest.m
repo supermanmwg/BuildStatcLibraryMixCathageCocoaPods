@@ -6,7 +6,6 @@
 //
 
 #import "OCTest.h"
-#import <SDWebImage.h>
 #import "SDImageWebPCoder.h"
 #import <SDWebImageWebPCoderDefine.h>
 @interface OCTest()

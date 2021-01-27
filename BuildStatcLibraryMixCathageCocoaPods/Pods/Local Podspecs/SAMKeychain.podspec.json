@@ -1,0 +1,25 @@
+{
+  "name": "SAMKeychain",
+  "version": "1.5.3",
+  "description": "Simple Cocoa wrapper for the keychain that works on OS X, iOS, tvOS, and watchOS.",
+  "summary": "Simple Cocoa wrapper for the keychain.",
+  "homepage": "https://github.com/soffes/samkeychain",
+  "authors": {
+    "Sam Soffes": "sam@soff.es"
+  },
+  "source": {
+    "git": "https://github.com/soffes/samkeychain.git",
+    "tag": "v1.5.3"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "vendored_frameworks": "SAMKeychain.framework",
+  "static_framework": true,
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"${SRCROOT}/CarthagePods/SAMKeychain/SAMKeychain.framework/Headers\""
+  }
+}
